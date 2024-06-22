@@ -1,35 +1,25 @@
-body {
-  background-color: #264653 !important;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
 /* Header */
 
 nav {
-  padding: 0 !important;
+  padding: 0;
 }
 .header {
-  background-color: #2a9d8f !important;
+  background-color: #2a9d8f;
 }
 
 .navbar-brand,
 .nav-link {
-  color: white !important;
-  font-family: 'Rubik Doodle Shadow';
+  color: #fff;
 }
 
 .navbar-brand {
-  font-size: 3em !important;
-  color: white !important;
+  font-size: 3em;
+  color: #fff;
 }
 
 /* Buttons */
 
-.logoutBtn {
+.logout-Btn {
   margin: auto;
 }
 
@@ -41,8 +31,7 @@ nav {
 }
 
 .btn {
-  background-color: #e76f51 !important;
-  border: #e76f51 !important;
-  font-family: 'Rubik Doodle Shadow' !important;
-  font-size: 2em !important;
+  background-color: #e76f51;
+  border: #e76f51;
+  font-size: 2em;
 }
