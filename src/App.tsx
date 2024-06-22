@@ -18,9 +18,6 @@ const App = () => {
     <CssBaseline /> 
     
     <Router>
-      
-      <div>
-        
         <Navbar />
         {isAuthenticated ? (
           <Routes>
@@ -29,7 +26,6 @@ const App = () => {
         ) : (
           <LoginButton />
         )}
-      </div>
     </Router>
     </ThemeProvider> 
   );
