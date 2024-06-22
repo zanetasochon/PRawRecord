@@ -11,7 +11,6 @@ const LoginButton = () => {
             </div>
         );
     }
-    return null
 };
  
 export default LoginButton;
