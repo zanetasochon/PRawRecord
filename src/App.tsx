@@ -16,7 +16,7 @@ const App = () => {
   return (
     <Auth0ProviderWithNavigate>
       <ThemeProvider theme={theme}>
-        {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. TEST*/}
+        {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. TEST / Another one test*/}
         <CssBaseline />
         <Router>
           <Navbar />
